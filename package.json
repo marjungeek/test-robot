@@ -1,0 +1,22 @@
+{
+  "name": "test-robot",
+  "version": "1.0.0",
+  "description": "My Test Robot",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "jest --silent --notify --coverage",
+    "test:watch": "jest --watchAll",
+    "dev": "nodemon ./src/app.js",
+    "start": "node src/app.js run"
+  },
+  "author": "Marjunn Villegas",
+  "license": "test",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "inquirer": "^6.2.0",
+    "yargs": "^12.0.2"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
